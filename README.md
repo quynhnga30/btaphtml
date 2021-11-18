@@ -34,3 +34,48 @@ vd
  <a href="/html/default.asp">HTML tutorial</a>
  --lket den 1 trang cung thu muc vs trang hien tai
  <a href="default.asp">HTML tutorial</a>
+
+
+
+ --lket mau
+
+ <style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+--cac nut lket
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
