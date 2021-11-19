@@ -79,3 +79,79 @@ a:hover, a:active {
   background-color: red;
 }
 </style>
+--hinh anh
+--Hình ảnh có thể cải thiện thiết kế và giao diện của một trang web.
+
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+
+<img src="img_girl.jpg" alt="Girl in a jacket">
+
+<img src="img_chania.jpg" alt="Flowers in Chania">
+
+-bản đồ hình ảnh
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+-hình nền
+<div style="background-image: url('img_girl.jpg');">
+
+<style>
+div {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+-nền cho toàn bộ trang
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+-bối cảnh lặp lại
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+}
+</style>
+-tránh nền lặp lại
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+-bìa nền
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+-căng nền
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+--yếu tố hình ảnh
+-hình ảnh và kích thước khác nhau
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+-định dạng hình ảnh đầu tiên
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
