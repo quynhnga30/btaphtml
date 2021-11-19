@@ -556,3 +556,21 @@ xóa đường viền
 <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
 
 <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+---html javascript
+-thẻ html script
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+-tdoi ndung
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+-thay đổi kiểu
+document.getElementById("demo").style.fontSize = "25px";
+document.getElementById("demo").style.color = "red";
+document.getElementById("demo").style.backgroundColor ="yellow";
+-thay đổi thuộc tính
+document.getElementById("image").src = "picture.gif";
+--thẻ html noscript
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
