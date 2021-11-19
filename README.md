@@ -543,5 +543,16 @@ function myFunction() {
 
 <h2 class="city">Tokyo</h2>
 <p>Tokyo is the capital of Japan.</p>
+---khung nội tuyến html
+-cú pháp iframe
+<iframe src="url" title="description"></iframe>
+chiều cao , chiều rộng
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+<iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+xóa đường viền
+<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+<iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+-mục tiêu cho một lket
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
 
-
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
