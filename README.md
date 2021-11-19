@@ -155,3 +155,19 @@ body {
   <source srcset="img_girl.jpg">
   <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
 </picture>
+
+--thêm favicon
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+--
